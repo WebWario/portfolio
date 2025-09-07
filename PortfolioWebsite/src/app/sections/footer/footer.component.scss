@@ -1,0 +1,32 @@
+#footerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footerBox{
+    background-color: var(--white);
+    border-width: .3em;
+    border-radius: 15px;
+    border-color: var(--cobalt-blue-highlight);
+    box-sizing: border-box;
+    border-style: groove;
+    min-height: 3vh;
+    margin-top: 1vh;
+    width : inherit
+}
+
+div > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div > div > div > div {
+  font-family: gagalin, serif;
+}
+
+img {
+  padding-left: 5px;
+  padding-right: 5px;
+}

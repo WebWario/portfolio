@@ -1,0 +1,49 @@
+button div:hover{
+    color: var(--razzmat-highlight)
+}
+
+:host {
+  display: flex;
+  width: 100%
+}
+
+button {
+  align-items: center;
+  color: var(--cobalt-blue-highlight);
+  font-family: 'gagalin', serif;
+  font-size: large;
+  padding-left: 1em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-outside: .5em;
+  margin-inside: .5em;
+  width: 100%;
+}
+
+.not-active {
+  color: var(--onyx);
+  opacity: var(--backdrop-opacity)
+}
+
+button div, button ng-template {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.is-active{
+  text-decoration: underline;
+  text-decoration-color: var(--cobalt-blue-highlight);
+  text-decoration-thickness: var(--decoration-thickness);
+  color: var(--razzmat-highlight)
+}
+
+button:active {
+  background-color: var(--razzmat-highlight)
+}
+
+img {
+  margin: 3px;
+  width: inherit;
+  height: inherit;
+}

@@ -1,0 +1,53 @@
+ng-container{
+    position:relative;
+}
+
+#body{
+    position:static;
+    z-index:1;
+}
+
+#header {
+  width: inherit;
+}
+
+#content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: fit-content;
+}
+
+#footer{
+  width: inherit;
+  height: 150px;
+  position: absolute;
+  bottom: 130px;
+}
+
+#nav-button {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  grid-row: 3;
+}
+
+.display {
+  display: grid;
+  grid-template-rows: 250px 4fr 100px;
+}
+
+#background {
+  position:fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+p {
+  font-family: lato-bold, serif;
+  font-size: xx-large;
+  color: var(--razzmat-highlight);
+  background-color: var(--onyx);
+  margin: 1em;
+}

@@ -1,0 +1,16 @@
+<div class="box">
+  <div class="container">
+    <div id="title" [ngStyle]="">
+      {{_title}}
+    </div>
+    @for (entry of arrayOfEntries(); track entry) {
+      <div #container>
+        <div #name [ngStyle]="entry.textStyle">
+          {{entry.name}}
+        </div>
+        <div #color [ngStyle]="entry.legendStyle">
+        </div>
+      </div>
+    }
+  </div>
+</div>

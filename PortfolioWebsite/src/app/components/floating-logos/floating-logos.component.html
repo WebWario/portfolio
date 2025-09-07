@@ -1,0 +1,13 @@
+<div class="transparentWhite border16px" style="width: 100%; height: fit-content;">
+  <div style="font-family: gagalin, serif; font-size: xxx-large; padding-top: 64px; padding-bottom:32px; display: flex; justify-content: space-around">
+    Technologies I 🫀and 👨🏻‍💻 with.
+  </div>
+  <div
+    style="display:flex; flex-wrap: wrap; align-self: center; height: fit-content; justify-content: space-evenly; margin: 0 auto;">
+    @for (logo of logos; track logo) {
+      <div #logoContainer style="width: fit-content; height: 100%; padding: 1em; display: flex; justify-content: center; align-items: center;">
+        <img #logo [src]="logo" alt="tech-logo" style="width: auto; height: 64px"/>
+      </div>
+    }
+  </div>
+</div>

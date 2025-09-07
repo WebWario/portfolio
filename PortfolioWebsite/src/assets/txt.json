@@ -1,0 +1,521 @@
+{
+  "pages": {
+    "lineNodes": {
+      "node1": {
+        "id": "1",
+        "name": "M.Sc. Computing in the Humanities",
+        "styles": {
+          "grid-row": 20,
+          "grid-column": 8,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "horizontal",
+          "form" : "box",
+          "textPosition": "right"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Keypoints",
+              "type": "list",
+              "elements": [
+                "Master @faculty of applied computer science",
+                "Thesis: Leveraging Agent Based Models for the generation of inertial measurement unit data"
+              ]
+            },
+            {
+              "title": "Study Projects",
+              "type": "list",
+              "elements": ["SpotOn", "Rasa ChatBot", "Smart Grocery List"],
+              "options": {
+                "elementLinks": {"SpotOn": "https://gitlab.com/studies4644235/spoton/-/tree/8a6f6e45d254e7f1d0d3208de9ce7fbc02117135/", "Rasa ChatBot":  "https://gitlab.com/studies4644235/smartgrocerylist/-/tree/097768d7a997ede817fb5b9f1c7cf18f31aceaa3/", "Smart Grocery List": "https://gitlab.com/studies4644235/rasachatbot/-/tree/0a8bc3d2e73b11d5413de6321c293fa5be724c20/"}
+              }
+            },
+            {
+              "title": "Summary",
+              "type": "text",
+              "elements": [
+                "The program is specifically designed for domain experts to learn and apply data science and algorithmic approaches to problems in the humanities and social sciences. I learned the skills necessary to cover the intersection of privacy and mobility from a software-technical perspective. The goal of my thesis was to understand hurdles, feasibility, and chances of utilizing stochastic traffic models for sensor data generation, an approach underrepresented in current research. For my thesis, I developed a non deep-learning method for data generation and compared it to state-of-the-art deep-learning approaches."
+              ]
+            }
+          ],
+          "detail": {
+            "date": "04/2022 - 01/2025",
+            "link": "",
+            "organization": "Otto-Friedrich University | sepp med GmbH"
+          },
+          "subtitle": "Adding software technical expertise to the mix"
+        }
+      },
+      "MBT": {
+        "id": "MBT",
+        "name": "MBTSuite",
+        "styles": {
+          "grid-row": 7,
+          "grid-column": 2,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "horizontal",
+          "form" : "box",
+          "textPosition": "top"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Video",
+              "type": "embed",
+              "elements": ["https://www.youtube.com/embed/7A-JkG-tlT4?si=tUsOS0OWMpCmB3RE"]
+            },
+            {
+              "type": "text",
+              "elements": ["Team lead Sebastian Polster presents the current project status of the MBTSuite."]
+            },
+            {
+              "title":"Keypoints",
+              "type": "list",
+              "elements": [
+                "Cloud based test automation product for model based test generation"
+              ]
+            },
+            {
+              "title": "Technologies",
+              "type": "logo",
+              "elements": [
+                "assets/logos/Java-Logo.svg.png", "/assets/logos/Typescript_logo_2020.png", "assets/logos/jenkins.png", "assets/logos/GitIcon1788C.png", "assets/logos/atlassian.png", "assets/logos/angularGradient.png", "assets/logos/sally_micronaut_mascot.png"
+              ]
+            },
+            {
+              "title":"Summary",
+              "type": "text",
+              "elements": [
+                "The cloud tool MBTSuite allows companies to implement their test design as a visual model. The software generates individual test cases from this model."
+              ]
+            },
+            {
+              "title":"I was responsible for",
+              "type": "list",
+              "elements": [
+                "Implementation of features and bug fixes",
+                "Frontend development in Typescript with Angular",
+                "Backend development in Java with Micronaut "
+              ]
+            }
+          ],
+          "curTxt": "",
+          "detail": {
+            "date": "02/2025 - Today",
+            "link": "",
+            "organization": "sepp med GmbH"
+          },
+          "subtitle": "Ensuring software quality through automated testing"
+        }
+      },
+      "node3": {
+        "id": 3,
+        "styles": {
+          "grid-row": "10",
+          "grid-column": "8"
+        }
+      },
+      "node5": {
+        "id": "5",
+        "name": "ModalX",
+        "styles": {
+          "grid-row": 7,
+          "grid-column": 10,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "vertical",
+          "form" : "box",
+          "textPosition": "top"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Video",
+              "type": "embed",
+              "elements": ["https://www.youtube.com/embed/aRb29K0wls0?si=3kFQWRcf0h2KLDHB"]
+            },
+            {
+              "type": "text",
+              "elements": ["Lead developer and colleague Michael Sollfrank presents the ModalX project."]
+            },
+            {
+              "title": "Technologies",
+              "type": "logo",
+              "elements": [
+                "assets/logos/Csharp_Logo.png", "assets/logos/GitIcon1788C.png", "assets/logos/atlassian.png", "assets/logos/maui.webp"
+              ]
+            },
+            {
+              "title": "Summary",
+              "type": "text",
+              "elements": [
+                "The goal was to investigate the feasibility of magnetometer and accelerometer data for precise transport mode detection, precise navigation in GPS-denied areas, and for GDPR conform navigation and billing in public transport systems."
+              ]
+            },
+            {
+              "title": "I was responsible for",
+              "type": "list",
+              "elements": [
+                "Feature implementation and bugfixes in C#/.NET MAUI mobile application",
+                "Requirement elicitation with use case analysis",
+                "Internal communication of project results",
+                "Project coordination"
+              ]
+            }
+          ],
+          "curTxt": "",
+          "detail": {
+            "date": "04/2024 - Today",
+            "link": "",
+            "organization": "sepp med GmbH"
+          },
+          "subtitle": "Designing data-intensive and GDPR conform platforms"
+        }
+      },
+      "node8": {
+        "id": "8",
+        "styles" : {
+          "grid-row": 16,
+          "grid-column": 15
+        }
+      },
+      "node9": {
+        "id": "9",
+        "name": "freemove",
+        "styles": {
+          "grid-row": 11,
+          "grid-column": 15,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "vertical",
+          "form" : "box",
+          "textPosition": "top"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Video",
+              "type": "embed",
+              "elements": ["https://www.youtube.com/embed/RRFh-dqeZ0k?si=B_7h5jzSgcnGR94u"]
+            },
+            {
+              "type": "text",
+              "elements": [
+                "I organized this panel discussion during my time as the 'freemove' project coordinator."
+              ]
+            },
+            {
+              "title": "Keypoints",
+              "type": "list",
+              "elements": [
+                "Transdisciplinary exploration of gdpr conform usage of mobility data",
+                "5 Universities & DLR"
+              ]
+            },
+            {
+              "title":"Summary",
+              "type": "text",
+              "elements": [
+                "The project goal was to explore the GDPR conform usage of sensitive mobility data, f.e. GPS data. The partners strived to align viewpoints from the fields of law, human-computer interaction, security & distributed computing, machine learning, and public participation to create a holistic and easy to follow guide for companies to leverage sensitive user data."
+              ]
+            },
+            {
+              "title": "I was responsible for",
+              "type": "list",
+              "elements": [
+                "Coordinating partner workflows",
+                "Budget planning and monitoring",
+                "Official communication with project sponsor and stakeholders",
+                "Organization and moderation of stakeholder workshops"
+              ]
+            }
+          ],
+          "subtitle": "A transdisciplinary lens on GDPR conform usage of GPS data",
+          "detail": {
+            "organization": "CityLab Berlin",
+            "link": "www.freemove.space",
+            "date": "04/2021 - 04/2022"
+          }
+        }
+      },
+      "OTC": {
+        "id": "OTC",
+        "name": "OpenTrafficCount",
+        "styles": {
+          "grid-row": 10,
+          "grid-column": 11,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "horizontal",
+          "form" : "box",
+          "textPosition": "top"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Research Paper",
+              "type": "img",
+              "elements": ["assets/tandemOnline.jpg"],
+              "options": {
+                "link": "https://www.tandfonline.com/journals/rupt20"
+              }
+            },
+            {
+              "title": "Keypoints",
+              "type": "list",
+              "elements":[
+                "Privacy conform surveying of traffic data with computer vision",
+                "Practical test of computer vision tool for traffic counting in Berlin"
+              ]
+            },
+            {
+              "title": "Summary",
+              "type": "text",
+              "elements": [
+                "The goal was to evaluate the use of a computer vision system for traffic counting. In cooperation with the academic chair of machine learning of the HTW, we identified hurdles and opportunities for the use of cheap computer vision systems in the public realm."
+              ]
+            },
+            {
+              "title": "My Responsibilities:",
+              "type": "list",
+              "elements": [
+                "Communication with Berlins public administration",
+                "Preparation of experiments",
+                "Setup and maintenance of computer vision systems",
+                "Conception and moderation of stakeholder workshops"
+              ]
+            }
+          ],
+          "curTxt": "",
+          "subtitle": "Enhancing traffic counting, but GDPR conform",
+          "detail": {
+            "organization": "CityLab Berlin",
+            "link": "https://www.bmv.de/SharedDocs/DE/Artikel/DG/mfund-projekte/OpenTrafficCount.html?nn=12830",
+            "date": "11/2019 - 06/2021"
+          }
+        }
+      },
+      "32": {
+        "id": "32",
+        "name": "CT Test Automatization",
+        "styles": {
+          "grid-row": 13,
+          "grid-column": 2,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "vertical",
+          "form" : "box",
+          "textPosition": "top"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Keypoints",
+              "type": "list",
+              "elements": [
+                "Test automatization pipelines in Azure & software maintenance automatization with Powershell",
+                "Large codebase in C#/.Net with ~100.000s of managed test cases"
+              ]
+            },
+            {
+              "title": "Technologies",
+              "type": "logo",
+              "elements": [
+                "assets/logos/Csharp_Logo.png", "assets/logos/Microsoft_Azure_Logo.svg", "assets/logos/PowerShell_5.0_icon.png", "assets/logos/GitIcon1788C.png"
+              ]
+            },
+            {
+              "title": "Summary",
+              "type": "text",
+              "elements": [
+                "The goal was to migrate a complex C#/.Net system to a new testing framework at a large German corporate medical device manufacturer. The migration also triggered the need to rework the existing testing pipeline and automate migration steps for future maintenance changes."
+              ]
+            },
+            {
+              "title" : "I was responsible for",
+              "type" : "list",
+              "elements" : [
+                "Automating migration steps in powershell",
+                "Implementing the steps in the Azure DevOps testing pipeline"
+              ]
+            }
+          ],
+          "subtitle": "Building testing pipelines and automation of maintenance tasks",
+          "detail": {
+            "organization": "sepp.med GmbH",
+            "link": "",
+            "date": "07/2025 - Today"
+          }
+        }
+      },
+      "node11": {
+        "id": "11",
+        "name": "B.Sc. City and Regional planning",
+        "styles": {
+          "grid-row": 20,
+          "grid-column": 2,
+          "font-size": "large"
+        },
+        "shape": {
+          "rotation": "vertical",
+          "form" : "box",
+          "textPosition": "right"
+        },
+        "txtField": {
+          "txtElements": [
+            {
+              "title": "Keypoints",
+              "type": "list",
+              "elements": [
+                "Thesis: Flächengerechtigkeit als politischer Kernindikator",
+                "Bachelor of Science @Technical University Berlin"
+              ]
+            },
+            {
+              "title": "Summary",
+              "type": "text",
+              "elements": [
+                "The focus of my studies were public participation and digital means of planning. Next to the practical projects offered in the bachelors degree, I participated in extracurricular activities such as summer schools and hackathons. In my bachelor thesis I investigated the just distribution of public space between the different traffic modes. The goal was to understand the usability of the political term 'Flächengerechtigkeit' as an indicator for a just distribution of public space."
+              ]
+            }
+          ],
+          "curTxt": "",
+          "subtitle": "First contacts with mobility and data-driven decision making",
+          "detail": {
+            "organization": "Technical University of Berlin",
+            "link": "",
+            "date": "10/2017 - 04/2021"
+          }
+        }
+      },
+      "node12": {
+        "id": "12",
+        "styles": {
+          "grid-row": 22,
+          "grid-column": 13
+        }
+      },
+      "node16": {
+        "id": 16,
+        "styles": {
+          "grid-row": 24,
+          "grid-column": 4
+        }
+      },
+      "node17": {
+        "id": 17,
+        "styles": {
+          "grid-row": 22,
+          "grid-column": 4
+        }
+      },
+      "node18": {
+        "id": 18,
+        "styles": {
+          "grid-row": 13,
+          "grid-column": 5
+        }
+      }
+    },
+    "paths": {
+      "1": {
+        "cmd": "drawSimplePath",
+        "nodeDefinitions": [1,3 , "MBT"],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle": "#DB3069",
+          "lineDash": [10, 1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "2": {
+        "cmd": "drawSimplePath",
+        "nodeDefinitions": [1, 3, 5],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle": "#1446A0",
+          "lineDash": [10, 1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": 15,
+          "offsetY": 0
+        }
+      },
+      "5" :{
+        "cmd" : "drawSimplePath",
+        "nodeDefinitions": [1,8,9],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle":"#1446A0",
+          "lineDash": [10,1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": 10,
+          "offsetY": 5
+        }
+      },
+      "6": {
+        "cmd": "drawSimplePath",
+        "nodeDefinitions" : [1, 8, "OTC"],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle":"#1446A0",
+          "lineDash": [10,1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": -5,
+          "offsetY": -5
+        }
+      },
+      "7": {
+        "cmd": "drawSimplePath",
+        "nodeDefinitions": [1, 11],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle":"#3C3C3B",
+          "lineDash": [10,1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "8": {
+        "cmd": "drawSimplePath",
+        "nodeDefinitions": [1, 18, 32],
+        "line": {
+          "lineWidth": 10,
+          "strokeStyle": "#F5D547",
+          "lineDash": [10,1],
+          "lineCap": "butt",
+          "lineJoin": "round"
+        },
+        "offset": {
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    }
+  }
+}
