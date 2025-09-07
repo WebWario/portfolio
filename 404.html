@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" data-beasties-container="">
+<head><meta http-equiv="Content-Security-Policy" content="script-src 'strict-dynamic' 'sha256-ErSGQ5RkfdaGFyDT7yi/vnakQoxNloHzsJR8SRc4ISE=' 'sha256-2++xCdrcMKVNkMXMlvZ46CWBhS+ID3bpcTL39EWW0ao=' https: 'unsafe-inline';object-src 'none';base-uri 'self';">
+  <meta charset="utf-8">
+  <title>PortfolioWebsite</title>
+  <base href="/portfolio/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<style>:root{--razzmat-highlight:#DB3069;--cobalt-blue-highlight:#1446A0;--beige:#EBEBD3;--onyx:#3C3C3B;--naples-yellow-highlight:#F5D547;--white:#ffffff;--border-radius:15px;--decoration-thickness:3px;--backdrop-opacity:.5;--map-grid-rows:24;--map-grid-cols:18}body{height:100vh;display:flex;justify-content:center;align-content:center}</style><script>
+(() => {
+  const CSP_MEDIA_ATTR = 'ngCspMedia';
+  const documentElement = document.documentElement;
+
+  // Listener for load events on link tags.
+  const listener = (e) => {
+    const target = e.target;
+    if (
+      !target ||
+      target.tagName !== 'LINK' ||
+      !target.hasAttribute(CSP_MEDIA_ATTR)
+    ) {
+      return;
+    }
+
+    target.media = target.getAttribute(CSP_MEDIA_ATTR);
+    target.removeAttribute(CSP_MEDIA_ATTR);
+
+    if (!document.head.querySelector(`link[${CSP_MEDIA_ATTR}]`)) {
+      documentElement.removeEventListener('load', listener);
+    }
+  };
+
+  documentElement.addEventListener('load', listener, true);
+})();</script><link rel="stylesheet" href="styles-4KWYHKBM.css" media="print" ngcspmedia="all"><noscript><link rel="stylesheet" href="styles-4KWYHKBM.css"></noscript></head>
+<body style="">
+  <app-root></app-root>
+<script>
+  var scripts = [['polyfills-HPZ7KTN2.js', 'module', false, false],['main-N3ENSZNF.js', 'module', false, false]];
+  scripts.forEach(function(scriptUrl) {
+    var s = document.createElement('script');
+    s.src = scriptUrl[0];
+    s.type = scriptUrl[1];
+    s.async = !!scriptUrl[2];
+    s.defer = !!scriptUrl[3];
+    document.lastElementChild.appendChild(s);
+  });
+</script></body>
+</html>
